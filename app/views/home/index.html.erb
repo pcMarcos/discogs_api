@@ -1,0 +1,29 @@
+<div class="container">
+<div class="col d-flex justify-content-center">
+
+ <%= image_tag "discogs.png", height: 150 %>
+</div>
+</div>
+
+
+<div class="container bg-light" style="height: 300px">
+<div class="col d-flex justify-content-center">
+
+<div class="card align-self-middle" style="width: 48rem; margin-top: 50px;">
+  <% if @artist.message %>
+  <div class="card-header">
+    <strong> Deu ruim: </strong> <%= @artist.message %>
+  </div>
+  <% else %>
+  <div class="card-header">
+    <strong> Nome do artista: </strong> <%= @artist.name %>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Nome real: <%= @artist.realname %> </li>
+    <li class="list-group-item">URL no Discogs: <%= @artist.resource_url %></li>
+    <li class="list-group-item">Data quality: <%= @artist.data_quality %> </li>
+  </ul>
+  <% end %>
+</div>
+</div>
+</div>
