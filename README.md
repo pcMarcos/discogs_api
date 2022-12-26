@@ -1,24 +1,8 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![discogs logo](https://st.discogs.com/d15fc5f7f14b7f84aa243f24a8678c7ac524518a/images/discogs-primary-logo.png)
 
-Things you may want to cover:
 
-* Ruby version
+A simple project to call Discogs API and fetch some artists
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://www.discogs.com/developers
